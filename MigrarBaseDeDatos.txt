@@ -1,0 +1,5 @@
+# Crear la migración inicial
+dotnet ef migrations add InitialCreate
+
+# Aplicar la migración a la base de datos
+dotnet ef database update

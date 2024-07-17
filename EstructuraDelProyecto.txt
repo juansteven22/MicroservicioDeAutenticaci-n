@@ -1,0 +1,26 @@
+AuthMicroservice/
+│
+├── Controllers/
+│   └── AuthController.cs
+│
+├── Data/
+│   └── AuthDbContext.cs
+│
+├── DTOs/
+│   ├── RegisterDto.cs
+│   ├── LoginDto.cs
+│   └── AuthResponseDto.cs
+│
+├── Models/
+│   ├── User.cs
+│   └── RefreshToken.cs
+│
+├── Services/
+│   ├── IAuthService.cs
+│   ├── AuthService.cs
+│   ├── ITokenService.cs
+│   └── TokenService.cs
+│
+├── appsettings.json
+├── Program.cs
+└── AuthMicroservice.csproj
